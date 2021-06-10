@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> partitionLabels(string s) 
     {
-        vector<int> a(26);
+        vector<int> a(26,0);
         vector<int> ans;
         for(int i=0;i<s.length();i++)
         {
